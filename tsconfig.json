@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "incremental": true,
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ],
+        "paths": {
+            "@components/*": ["./src/components/*"],
+            "@components": ["./src/components"],
+            "@styles/*": ["./src/styles/*"],
+            "@styles": ["./src/styles"],
+            "@config/*": ["./src/config/*"],
+            "@config": ["./src/config"],
+            "@interfaces/*": ["./src/interfaces/*"],
+            "@interfaces": ["./src/interfaces"],
+            "@icons/*": ["./src/components/icons/*"],
+            "@icons": ["./src/components/icons"],
+            "@store/*": ["./src/store/*"],
+            "@store": ["./src/store"],
+            "@data/*": ["./src/data/*"],
+            "@data": ["./src/data"],
+            "@lib/*": ["./src/lib/*"],
+            "@lib": ["./src/lib"],
+            "@app/*": ["./src/app/[lng]/(site)/*"],
+            "@app": ["./src/app/[lng]/(site)"],
+            "@i18n/*": ["./src/app/i18n/*"],
+            "@i18n": ["./src/app/i18n"],
+            "@queries/*": ["./src/queries/*"],
+            "@queries": ["./src/queries"],
+            "@public/*": ["./public/*"]
+        }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+    "exclude": ["node_modules"]
+}

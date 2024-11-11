@@ -1,0 +1,4 @@
+{
+  "footer_button_1": "Open preferencesModal by data attribute",
+  "footer_button_2": "Open preferencesModal by on click event"
+}

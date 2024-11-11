@@ -1,0 +1,12 @@
+.git
+.vscode
+.DS_Store
+*.log
+
+.next
+
+node_modules
+
+build
+
+.env.local
